@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML form</h1>
+    <form action="https://httpbin.org/post" method="post">
+        <label for="name">First name: </label>
+        <input type="text" id="name"><br><br>
+
+        <label for="lastname">Lastme: </label>
+        <input type="text" id="lastname"><br><br>
+        <label for="email">E-mail: </label>
+        <input type="text" id="email"><br><br>
+
+        <!-- <input type="radio"  id="Male" name="Male">
+    <label for="Male">Male</label><br>
+    <input type="radio"  id="Female" name="Female">
+    <label for="Female">Female</label><br> -->
+        <label for="gender">Gender</label> <br><br>
+        <input type="radio" name="gender"> Male <br>
+        <input type="radio" name="gender"> Female
+
+        <br>
+
+        <button onclick="Submit ">Submit</button>
+        <button onclick="Reset()">Reset</button>
+        <br>
+    </form>
+
+
+
+</body>
+
+</html>
